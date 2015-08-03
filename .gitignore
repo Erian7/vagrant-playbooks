@@ -2,3 +2,5 @@
 provision/*_vars
 npm-debug.log
 */.vagrant/
+id_rsa.pub
+id_dsa.pub
