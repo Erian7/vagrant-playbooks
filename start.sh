@@ -1,4 +1,2 @@
 #!/bin/bash
-
-sudo docker run -p 40022:22 -p 80:8080 -d 
-ansible-playbook -i host deploy.yml
+docker run -it -p 8080:80 -p 22222:22 --name=manati-dev -d docker-ansible
